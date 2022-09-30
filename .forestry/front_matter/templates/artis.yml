@@ -1,4 +1,18 @@
 ---
 label: Artis
 hide_body: false
-fields: []
+fields:
+- name: virsraksts
+  type: text
+  config:
+    required: false
+  label: virsraksts
+- name: saturs
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: saturs
